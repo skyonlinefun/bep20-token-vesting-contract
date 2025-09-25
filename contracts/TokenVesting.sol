@@ -270,7 +270,7 @@ contract TokenVesting is Ownable, ReentrancyGuard, Pausable {
 
     /**
      * @dev Computes the releasable amount of tokens for a vesting schedule
-     * @param vestingSchedule the vesting schedule
+     * @param vestingScheduleId the vesting schedule identifier
      * @return the amount of releasable tokens
      */
     function computeReleasableAmount(bytes32 vestingScheduleId)
